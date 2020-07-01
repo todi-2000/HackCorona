@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Lockdown Pass</title>
+   </head>
+
+   <body style="margin-left: 2em;">
+      <br>
+      <br>
+      <h1 style="text-align: center;"><font size="7">Government of Uttar Pradesh, India</font></h1>
+    <h1 style="text-align: center;"><font size="7">Lockdown E-Pass</font></h1>
+    <h2 style="text-align: right;margin-right:5em;">Valid Upto: 20/04/2020</h2>
+    <h1 style="display:inline;">ID : </h1><h2 style="display:inline;">{{ a.uniquenumber }}</h2><br><br>
+    <h1 style="display:inline;">Name : </h1><h2 style="display:inline;">{{ a.name }}</h2><br><br>
+    <h1 style="display:inline;">Email : </h1><h2 style="display:inline;">{{ a.email }}</h2><br><br>
+    <h1 style="display:inline;">Phone Number : </h1><h2 style="display:inline;">{{ a.phonenumber }}</h2><br><br>
+    <h1 style="display:inline;">District : </h1><h2 style="display:inline;">{{ a.district }}</h2><br><br>
+    <h1 style="display:inline;">Vehicle Number : </h1><h2 style="display:inline;">{{ a.vehiclenumber }}</h2><br><br>
+    <h1 style="display:inline;">Aadhar Card Number : </h1><h2 style="display:inline;">{{ a.aadharcardnumber }}</h2><br><br>
+    <h1 style="display:inline;">Address : </h1><h2 style="display:inline;">{{ a.address }}</h2><br><br>
+    <h1 style="display:inline;">Reason : </h1><h2 style="display:inline;">{{ a.reason }}</h2><br><br>
+    <h1 style="display:inline;">Issue Date : </h1><h2 style="display:inline;">{{ a.issuedate }}</h2><br><br>
+    <h1 style="display:inline;">Pass Category : </h1><h2 style="display:inline;">{{ a.passcategory }}</h2><br><br>
+    <h1 style="display:inline;">Sub Category : </h1><h2 style="display:inline;">{{ a.subcategory }}</h2><br><br>
+   </body>
+</html>
